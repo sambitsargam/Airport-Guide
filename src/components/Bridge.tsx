@@ -59,7 +59,7 @@ export default function Bridge({}) {
           Flight through Polygon
         </Button>
         <Button
-          disabled={chain?.id === 1278}
+          disabled={chain?.id === 0x6d6f2d61}
           onClick={() => NFTARENA_WRITE.bridgeMoonbeam(currentPlayer.tokenId)}
         >
           Flight through Moonbeam

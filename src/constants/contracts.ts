@@ -1,8 +1,8 @@
 export const CONTRACTS = {
-    // goerli testnet chainid 
-    "Goerli": "0x30c10c39a7ff106c3d8a0120353fd6b5a699830b",
+    //optimism goerli testnet chainid 
+    "Goerli": "0xB92408119D072c5199D25c693B1eF2B0435d93A6",
     //mumbai testnet chainid   
-    "Polygon Mumbai": "0x7a95c046b1174161c1c2db2a4bd9f0317d377266", 
+    "Polygon Mumbai": "0xB947E5387Ad88d774Be69A860209e5bB2d2Bf937", 
     //moonbeam chainid
     "Moonbeam Alpha": "0x95896950ec74266e785e623a1652a1221d84ad35",
 }
@@ -48,7 +48,7 @@ export const NFTARENA_ABI = [
 					"type": "uint256"
 				},
 				{
-					"internalType": "enum Airport.Status",
+					"internalType": "enum NFTArena.Status",
 					"name": "_status",
 					"type": "uint8"
 				}
@@ -495,13 +495,13 @@ export const NFTARENA_ABI = [
 							"type": "uint256"
 						},
 						{
-							"internalType": "enum Airport.Status",
+							"internalType": "enum NFTArena.Status",
 							"name": "status",
 							"type": "uint8"
 						}
 					],
 					"indexed": false,
-					"internalType": "struct Airport.Player",
+					"internalType": "struct NFTArena.Player",
 					"name": "playerRef",
 					"type": "tuple"
 				}
@@ -931,7 +931,7 @@ export const NFTARENA_ABI = [
 					"type": "uint256"
 				},
 				{
-					"internalType": "enum Airport.Status",
+					"internalType": "enum NFTArena.Status",
 					"name": "status",
 					"type": "uint8"
 				}
